@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<meta charset = utf8>
+<html>
+
+<head>
+    <title>Gumba</title>
+    <link rel="stylesheet" href="test04.css">
+</head>
+
+<body>
+
+<button id="buttonOn" class="button" onClick="on()">On</button>
+<button id="buttonOff" class="button" onClick="off()">Off</button>
+
+<div id="izpis1">Pritisnite enega od gumbov zgoraj</div>
+
+<br>
+
+<script type="text/javascript">
+
+function on () {
+    document.getElementById("izpis1").innerHTML="Pritisnili ste: On";
+}
+
+function off () {
+    document.getElementById("izpis1").innerHTML="Pritisnili ste: Off";
+}
+    
+</script>
+    
+</body>
+    
+</html>
